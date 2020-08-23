@@ -1,7 +1,8 @@
 import random
 
 def randomize(array):
-    for _ in range(0, 10):
+    repeat = 0
+    while True:
         n = random.randint(0,30)
         count = 0
         # Check if there is any duplicate
@@ -11,3 +12,6 @@ def randomize(array):
         # If no duplicate, then append to list
         if count == 0:
             array.append(n)
+            repeat += 1
+        if repeat == 10:
+            break
