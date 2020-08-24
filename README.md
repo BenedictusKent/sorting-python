@@ -43,3 +43,8 @@ arr[] = 64 25 12 22 11
 // Find the minimum element in arr[3...4]  
 // and place it at beginning of arr[3...4]  
 11 12 22 **25** 64   
+
+## Insertion sort
+On every iteration, check all previous elements and move it in a correct order.  
+Example:  
+![Insertion Sort Example](images/insertionsort.png)
