@@ -47,4 +47,4 @@ arr[] = 64 25 12 22 11
 ## Insertion sort
 On every iteration, check all previous elements and move it in a correct order.  
 Example:  
-![Insertion Sort Example](images/insertionsort.png)
+![Insertion Sort Example](image/insertionsort.png)
